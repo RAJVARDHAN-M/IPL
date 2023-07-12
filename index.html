@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+        #map{
+            background-color: black;
+            width: 100vw;
+            height: 100vh;
+        }
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+    </style>
+    <title>ipl</title>
+</head>
+<body>
+    <div id='map'></div> 
+    <div id="datawrite" disabled="disabled">I love you</div>
+</body>
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoicmFqdmFyZGhhbjAwMSIsImEiOiJjbGdjcGc0aTAwcDUyM3JwNW1jemlhaGRyIn0.m2a24iIZ9yJmXTuDniI6pQ';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/rajvardhan001/clgfjcxah001m01o17wm1enlj'
+  });
+</script>
+
+
+
+<script src="index.js"></script>
+<script src="index1.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
